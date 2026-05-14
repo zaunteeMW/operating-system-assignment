@@ -1,0 +1,13 @@
+#ifndef EDUOS_H
+#define EDUOS_H
+
+typedef struct {
+    int pid;
+    char state[20];
+} Process;
+
+void create_process(int pid);
+void run_threads();
+void ipc_send();
+
+#endif
