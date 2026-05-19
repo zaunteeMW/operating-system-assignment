@@ -46,7 +46,7 @@ python main_controller.py
 ```
 
 ## Directory Structure
-EduOS-25311351026/
+EduOS-25311351030/
 ├── README.md               # Project documentation
 ├── .gitignore              # Excludes build artifacts and cache files
 ├── docs/
