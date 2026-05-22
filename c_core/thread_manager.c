@@ -277,7 +277,7 @@ static void *producer(void *arg) {
 
         pthread_mutex_unlock(&buf_mutex);
         sem_post(&sem_full);
-        sleep(100000);
+        usleep(100000);
     }
     return NULL;
 }
@@ -294,7 +294,7 @@ static void *consumer(void *arg) {
 
         pthread_mutex_unlock(&buf_mutex);
         sem_post(&sem_empty);
-        sleep(150000);
+        usleep(150000);
     }
     return NULL;
 }
