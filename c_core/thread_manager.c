@@ -277,7 +277,7 @@ static void *producer(void *arg) {
 
         pthread_mutex_unlock(&buf_mutex);
         sem_post(&sem_full);
-        usleep(100000);
+        sleep(100000);
     }
     return NULL;
 }
