@@ -1,4 +1,5 @@
 #include "include/eduos.h"
+#include <unistd.h>
 
 /* ═══════════════════════════════════════════════
    THREAD POOL IMPLEMENTATION
