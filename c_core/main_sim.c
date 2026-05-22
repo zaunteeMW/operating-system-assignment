@@ -27,8 +27,8 @@ int main(void) {
 
     printf("\n");
     printf("╔══════════════════════════════════════════════════╗\n");
-    printf("║         EduOS Simulator — Hajj Sulaiman          ║\n");
-    printf("║         Reg: 25311351025 | 351 CS 2104           ║\n");
+    printf("║         EduOS Simulator — Laurent Namacha          ║\n");
+    printf("║         Reg: 25311351030 | 351 CS 2104           ║\n");
     printf("╚══════════════════════════════════════════════════╝\n\n");
 
     /* ─── PART 1: Process Management ─── */
