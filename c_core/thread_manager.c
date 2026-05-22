@@ -294,7 +294,7 @@ static void *consumer(void *arg) {
 
         pthread_mutex_unlock(&buf_mutex);
         sem_post(&sem_empty);
-        usleep(150000);
+        sleep(150000);
     }
     return NULL;
 }
