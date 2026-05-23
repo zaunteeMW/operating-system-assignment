@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # ═══════════════════════════════════════════════════════════
 # EduOS Scheduling Simulator
 # Student: Laurent Namacha | Reg: 25311351030
