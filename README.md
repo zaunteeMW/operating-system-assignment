@@ -69,19 +69,92 @@ EduOS-25311351030/
 └── main_controller.py  # Integration bridge between C and Python
 
 ## Screenshots
-
-*(To be added once the simulator is running)*
+ C Simulator Output
+ FCFS Gantt Chart
+ SJF Gantt Chart
+ Priority Scheduling
+ Round Robin Scheduling
+ Scheduling Comparison Charts
 
 ## Valgrind Output
 
-*(To be pasted here once memcheck is complete)*
+Valgrind memory analysis was successfully performed on the C simulator executable.
 
+### Command Used
+```bash
+valgrind ./eduos
+```
+
+### Summary
+```text
+HEAP SUMMARY:
+    in use at exit: 0 bytes in 0 blocks
+    total heap usage: 59 allocs, 59 frees, 61,834 bytes allocated
+
+All heap blocks were freed -- no leaks are possible
+
+ERROR SUMMARY: 0 errors from 0 contexts
+```
+
+### Interpretation
+- No memory leaks were detected.
+- All dynamically allocated heap memory was properly released.
+- The simulator executed successfully under Valgrind analysis.
+  
 ## Challenges and Solutions
 
-*(To be filled in as development progresses)*
+### 1. GCC Compilation Warnings
+**Challenge:**  
+The compiler produced warnings related to the `usleep()` function during compilation.
+
+**Solution:**  
+The issue was resolved by including the `<unistd.h>` header file and recompiling the project using GCC with pthread support.
+
+---
+
+### 2. Python Dependency Errors
+**Challenge:**  
+The Python scheduler simulator failed due to missing modules such as `tabulate` and other dependencies.
+
+**Solution:**  
+Required packages were installed using `pip3 install` and the `requirements.txt` configuration file.
+
+---
+
+### 3. GitHub Authentication Problems
+**Challenge:**  
+Git push commands failed because GitHub no longer supports password authentication for HTTPS operations.
+
+**Solution:**  
+Project files and screenshots were uploaded manually through the GitHub web interface and repository synchronization was completed successfully.
+
+---
+
+### 4. Script Execution Issues
+**Challenge:**  
+The Python scheduling script initially produced permission and interpreter errors when executed directly.
+
+**Solution:**  
+The script was executed using `python3 scheduler_sim.py`, and executable permissions were configured correctly where necessary.
+
+---
+
+### 5. Gantt Chart Generation
+**Challenge:**  
+The simulator initially failed to locate `gantt.py` for chart generation.
+
+**Solution:**  
+The program was executed from the correct project directory, allowing chart generation and screenshot export to function properly.
 
 ## References
 
-- Silberschatz, A., Galvin, P. B., & Gagne, G. - Operating System Concepts, 10th Edition
+- Silberschatz, A., Galvin, P. B., & Gagne, G. *Operating System Concepts*, 10th Edition
+- Linux man pages: `fork(2)`, `execve(2)`, `wait(2)`, `pthread_create(3)`
+- Python Documentation — https://docs.python.org/3/
+- GCC Documentation — https://gcc.gnu.org/onlinedocs/
+- POSIX Threads Programming Guide
+- Matplotlib Documentation — https://matplotlib.org/
+- W3Schools — https://www.w3schools.com/
+- GeeksforGeeks — https://www.geeksforgeeks.org/
 - Linux man pages: fork(2), execve(2), wait(2), pthread_create(3)
 - Course notes - 351 CS 2104 Operating Systems
