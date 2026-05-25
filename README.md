@@ -70,13 +70,32 @@ EduOS-25311351030/
 
 ## Screenshots
  C Simulator Output
- ![Uploading Screenshot (14).png…]()
+ <img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/f20d4a9e-8751-4dc9-9f59-a035e6c74b88" />
+<img width="1366" height="768" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/f6f30ef2-49a2-4703-919c-748f532af70f" />
+<img width="1366" height="768" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/72cdafae-6487-40ef-8148-64baab43a910" />
+<img width="1366" height="768" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/f7e8d8f7-f1d1-4f07-9b61-4aebf4a93c63" />
+<img width="1366" height="768" alt="Screenshot (20)" src="https://github.com/user-attachments/assets/67688bef-c260-4bad-9f6b-9d19828b835c" />
+<img width="1366" height="768" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/04e30741-c025-4e1a-b4c5-c0ff5010d73d" />
+<img width="1366" height="768" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/aeb987f7-6d64-4973-a392-1ed27532d30e" />
+<img width="1366" height="768" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/fa1d2946-f25c-4bd1-bff0-8a9bdbd8c384" />
+<img width="1366" height="768" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/43569332-86f4-4418-b92c-0b44cdd41058" />
+<img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/8e916df0-0dc9-46f2-a745-7b79d3202f93" />
+<img width="1366" height="768" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/bd4b8e00-e8a8-4e68-b549-2c943373b618" />
 
- FCFS Gantt Chart
- SJF Gantt Chart
- Priority Scheduling
- Round Robin Scheduling
+
+
+SJF Gantt Chart
+<img width="2085" height="734" alt="gantt_sjf" src="https://github.com/user-attachments/assets/24291372-eeed-4754-9c7f-4b2a8eba9ee2" />
+Round Robin Scheduling
+<img width="2085" height="734" alt="gantt_rr" src="https://github.com/user-attachments/assets/95602ae9-0d41-4377-a929-66576d5e81ba" />
+<img width="2085" height="734" alt="gantt_priority" src="https://github.com/user-attachments/assets/87ba1036-55d5-45da-ba9d-376b85892c05" />
+FCFS Gantt Chart
+<img width="2085" height="734" alt="gantt_fcfs" src="https://github.com/user-attachments/assets/e6acc512-0f15-4914-a22f-215d7ce61271" />
  Scheduling Comparison Charts
+<img width="2384" height="892" alt="comparison_charts" src="https://github.com/user-attachments/assets/a9d1944d-a751-47ee-913e-6446524c574d" />
+
+
+ 
 
 ## Valgrind Output
 
