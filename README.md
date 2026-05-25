@@ -70,6 +70,8 @@ EduOS-25311351030/
 
 ## Screenshots
  C Simulator Output
+ ![Uploading Screenshot (14).png…]()
+
  FCFS Gantt Chart
  SJF Gantt Chart
  Priority Scheduling
